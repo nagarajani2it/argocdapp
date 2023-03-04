@@ -1,0 +1,18 @@
+### Services ###
+demo1:
+  applicationName: demo1
+  image:
+     repository: 802924987857.dkr.ecr.ap-south-1.amazonaws.com/demo1
+     pullPolicy: always
+     # Overrides the image tag whose default is the chart appVersion.
+     tag: "latest"
+  replicas: 1
+
+demo2:
+  applicationName: demo2
+  image:
+     repository: 802924987857.dkr.ecr.ap-south-1.amazonaws.com/demo2
+     pullPolicy: always
+     # Overrides the image tag whose default is the chart appVersion.
+     tag: "latest"	
+  replicas: 1
